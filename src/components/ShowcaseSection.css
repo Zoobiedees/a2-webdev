@@ -1,0 +1,12 @@
+.showcase {
+  display:flex; align-items:center; gap: 40px; padding: 56px 0;
+}
+.showcase.reverse { flex-direction: row-reverse; }
+.showcase-text { flex:1; }
+.showcase-text h2 { font-size: clamp(26px,3.2vw,38px); font-weight:800; }
+.showcase-text p { margin: 12px 0 20px; font-size: 18px; color:#333; }
+.showcase-img { flex:1; }
+.showcase-img img { width:100%; border-radius: 12px; }
+@media (max-width: 940px){
+  .showcase, .showcase.reverse { flex-direction: column; }
+}

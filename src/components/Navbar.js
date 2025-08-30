@@ -18,6 +18,8 @@ const Navbar = () => {
           <NavLink to="/cart" className="link cart-link">
             Cart <span className="cart-badge">{summary.count}</span>
           </NavLink>
+          <NavLink to="/login" className="link">Login</NavLink>
+          <NavLink to="/register" className="link">Register</NavLink>
         </nav>
 
         <div className="actions">
